@@ -1,0 +1,33 @@
+/* Estilo */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#cabezeraprincipal{
+  background: #263238;
+  height: 15%;
+}
+
+h1{
+  padding: 5px;
+  margin: 0;
+  color: #fff;
+  /*text-shadow: 2px 2px 3px #fff;*/
+  text-align: center;
+}
+
+#section{
+  height: 70%;
+  background: #e0e0e0;
+}
+
+#section article{
+  background: yellow;
+}
+
+#pie{
+  background: #263238;
+  height: 15%;
+}
