@@ -1,6 +1,6 @@
 /* Estilo */
 
-body{
+body, p, ul{
   margin: 0;
   padding: 0;
 }
@@ -14,20 +14,58 @@ h1{
   padding: 5px;
   margin: 0;
   color: #fff;
-  /*text-shadow: 2px 2px 3px #fff;*/
   text-align: center;
 }
 
-#section{
-  height: 70%;
-  background: #e0e0e0;
+h1:hover{
+  text-shadow: 2px 2px 3px #fff;
 }
 
-#section article{
-  background: yellow;
+section{
+  height: 70%;
+  background: #e0e0e0;
+  padding: 10px;
+  border-top: 3px solid #78909c;
+  border-bottom: 3px solid #78909c;
+}
+
+section article{
+  padding: 5px;
+}
+
+section article ul li{
+    margin-left: 15px;
 }
 
 #pie{
   background: #263238;
   height: 15%;
+}
+
+#pie p{
+  color: #fff;
+  text-align: center;
+}
+
+#pie p:first-child{
+  text-align: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td{
+  border: 1px solid #000;
+  border-bottom:
+}
+
+th, td{
+  padding: 5px;
+  text-align: center;
 }
