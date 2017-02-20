@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+video{
+  width: 720px;
+  margin: 20px auto;
+  background: #fc3;
+  padding: 5px;
+
+  border: 2px solid #f60;
+  border-radius: 8px;
+}
+
+nav{
+  margin: 5px 0;
+}
+
+#botones{
+  float: left;
+  width: 100px;
+  height: 20px;
+}
+
+#barra{
+
+}
+
+footer{
+  clear: both;
+}

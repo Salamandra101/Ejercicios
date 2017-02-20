@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo de video</title>
+    <meta name="description" content="ejemplo de video html5">
+    <meta name="keywords" content="html5,video,ejemplo">
+    <meta name="author" content="Salamandra">
+
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+      }
+
+      div{
+        margin: 10px;
+        float: left;
+      }
+      footer{
+        clear: both;
+      }
+
+      footer p{
+        padding: 10px;
+        margin: 0;
+        margin-top: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="contenedorvideo1">
+      <video src="resources/videos/video-ejemplo-2.ogv" controls autoplay type="video/ogg" width="200" height="100">Problemas!</video>
+    </div>
+    <div id="contenedorvideo2">
+      <video controls autoplay width="200" height="100">
+        <source src="http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_720p_stereo.ogg" type="video/ogg">
+        <source src="http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4" type="video/mp4">
+        ¡Problemas!
+      </video>
+    </div>
+    <div id="contenedorvideo3">
+        <video controls autoplay width="200" height="100">
+          <source src="resources/videos/video-ejemplo-4.ogv" type="video/ogg">
+          ¡Problemas!
+        </video>
+    </div>
+    <footer>
+      <p>Los videos aqui presenten poseen una licencia Creative Commons</p>
+    </footer>
+  </body>
+</html>
