@@ -8,28 +8,23 @@
     <meta name="keywords" content="html, css, js, video, ejemplo">
 
     <link rel="stylesheet" href="video-controles-propios.css">
+    <script src="video-controles-propios.js"></script>
   </head>
 
   <body>
-
-    <section>
-      <video>
+    <section id="video">
+      <video id="mivideo" width="720">
         <source src="resources/videos/video-ejemplo-2.ogv" type="video/ogg">
       </video>
-    <nav>
-
-      <div id="botones">
-        <button type="button" id="reproducir">Play</<button>
-      </div>
-
-      <div id="barra">
-        <div id="progreso"></div>
-      </div>
-    </nav>
+      <nav>
+        <div id="botones">
+          <button type="button" id="reproducir">Play</button>
+        </div>
+        <div id="barra">
+          <progress value="13" max="100"></progress>
+        </div>
+      </nav>
     </section>
 
-    <footer>
-      <p>febrero, 2016</p>
-    </footer>
   </body>
 </html>

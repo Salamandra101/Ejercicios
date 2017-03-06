@@ -3,13 +3,12 @@ body{
   padding: 0;
 }
 
-video{
+#video{
   width: 720px;
   margin: 20px auto;
   background: #fc3;
   padding: 5px;
-
-  border: 2px solid #f60;
+  border: 2px solid #f90;
   border-radius: 8px;
 }
 
@@ -19,14 +18,14 @@ nav{
 
 #botones{
   float: left;
-  width: 100px;
+  width: 80px;
   height: 20px;
 }
 
-#barra{
-
-}
-
-footer{
-  clear: both;
+#barra progress{
+  width: 620px;
+  height: 16px;
+  background: #fff;
+  solid: 1px solid #666;
+  padding: 3px;
 }

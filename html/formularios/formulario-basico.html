@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario basico</title>
+    <meta name="author" content="Salamandra">
+    <meta name="description" content="Ejemplo de formulario basico">
+    <meta name="keywords" content="ejemplo, form, formulario, html">
+  </head>
+
+  <body>
+
+    <section>
+
+      <form name="miformulario" id="miformulario" method="get" autocomplete="on">
+        Email <input type="email" name="email" id="email" multiple autofocus> <br>
+        Buscar <input type="search" name="buscar" id="uscar"> <br>
+        Url <input type="url" name="url" id="url"> <br>
+        telefono <input type="tel" name="tel" id="tel"> <br>
+        Edad <input type="number" name="edad" id="edad" min="0" max="100" step="5" placeholder="Multiplos de 5"> <br>
+        Edad <input type="range" name="edad1" id="edad1" min="5" max="100"> <br>
+        Fecha <input type="date" name="fecha" id="fecha"> <br>
+        Fecha <input type="month" name="fecha1" id="fecha1"> <br>
+        Fecha <input type="week" name="fecha2" id="fecha2"> <br>
+        Fecha <input type="time" name="fecha3" id="fecha3"> <br>
+        Fecha <input type="datetime-local" name="fecha4" id="fecha4"> <br>
+        Codigo postal <input type="text" pattern="[0-9] {3}" name="cpostal" id="cpostal"> <br>
+        <input type="submit" value="Enviar">
+      </form>
+
+      <input type="time" name="fechafuera" id="fechafuera" form="miformulario">
+
+      <form name="miformulario2" id="miformulario2" method="get">
+        Usuario <input pattern="[A-Za-z] {3}" name="usuario" id="usuario" maxlength="10"> <br>
+        <input type="submit" value="Enviar">
+      </form>
+
+    </section>
+  </body>
+</html>

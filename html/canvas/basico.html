@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Canvas basico</title>
+    <meta name="author" content="Salamandra">
+    <meta name="description" content="Ejemplo de canvas basico">
+    <meta name="keywords" content="html, canvas, ejemplo, practica">
+    <style>
+
+      #contenedor{
+        width: 500px;
+        position: relative;
+        margin: auto;
+      }
+
+      #lienzo{
+        background-color: #f00;
+      }
+
+    </style>
+
+    <script>
+      function comenzar(){
+        var elemento=document.getElementById("lienzo");
+
+        lienzo=elemento.getContext("2d");
+        lienzo.strokeStyle="#56f";
+        lienzo.fillStyle="#f56";
+        lienzo.globalAlpha="0.8";
+
+
+        lienzo.fillRect(110,110,100,100);
+        lienzo.strokeRect(150,150,100,100);
+        lienzo.clearRect(120,120,50,50);
+
+      }
+
+      window.addEventListener("load", comenzar, false);
+    </script>
+  </head>
+
+  <body>
+    <section id="contenedor">
+      <canvas id="lienzo" width="500" height="500">
+      </canvas>
+    </section>
+  </body>
+</html>
